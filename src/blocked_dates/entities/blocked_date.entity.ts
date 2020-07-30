@@ -14,8 +14,8 @@ export class BlockedDate {
 	@Column()
 	endDate: Date;
 
-	// @Column()
-	// userId: number;
+	@Column()
+	fullName: string;
 
   	@Column({ length: 40 })
   	reason: string;
